@@ -10976,7 +10976,8 @@ header.masthead {
   padding-bottom: 6rem;
   text-align: center;
   color: #fff;
-  background-color: #badcdd;
+  background-image: url("../../../assets/img/sorexpert2.png");
+  background-size:cover ;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
