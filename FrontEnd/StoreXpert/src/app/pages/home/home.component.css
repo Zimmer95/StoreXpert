@@ -2846,36 +2846,36 @@ textarea.form-control-lg {
 
 .btn-primary {
   --bs-btn-color: #fff;
-  --bs-btn-bg: #bbbadd;
-  --bs-btn-border-color: #bbbadd;
+  --bs-btn-bg: #2a4858;
+  --bs-btn-border-color: #BBDEFB;
   --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: #bbbadd;
-  --bs-btn-hover-border-color: #bbbadd;
+  --bs-btn-hover-bg: #BBDEFB;
+  --bs-btn-hover-border-color: ##BBDEFB;
   --bs-btn-focus-shadow-rgb: 255, 208, 38;
   --bs-btn-active-color: #fff;
-  --bs-btn-active-bg: #bbbadd;
-  --bs-btn-active-border-color: #bbbadd;
+  --bs-btn-active-bg: #BBDEFB;
+  --bs-btn-active-border-color: #BBDEFB;
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
   --bs-btn-disabled-color: #fff;
-  --bs-btn-disabled-bg: #bbbadd;
-  --bs-btn-disabled-border-color: #bbbadd;
+  --bs-btn-disabled-bg: #2a4858;
+  --bs-btn-disabled-border-color: #BBDEFB;
 }
 
 .btn-color{
     --bs-btn-color: #fff;
-  --bs-btn-bg: #bbbadd;
-  --bs-btn-border-color: #bbbadd;
+  --bs-btn-bg: #2a4858;
+  --bs-btn-border-color: #BBDEFB;
   --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: #bbbadd;
-  --bs-btn-hover-border-color: #bbbadd;
+  --bs-btn-hover-bg: #BBDEFB;
+  --bs-btn-hover-border-color: #BBDEFB;
   --bs-btn-focus-shadow-rgb: 255, 208, 38;
   --bs-btn-active-color: #fff;
-  --bs-btn-active-bg: #bbbadd;
-  --bs-btn-active-border-color: #bbbadd;
+  --bs-btn-active-bg: #BBDEFB;
+  --bs-btn-active-border-color: #BBDEFB;
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
   --bs-btn-disabled-color: #fff;
-  --bs-btn-disabled-bg: #bbbadd;
-  --bs-btn-disabled-border-color: #bbbadd;
+  --bs-btn-disabled-bg: #BBDEFB;
+  --bs-btn-disabled-border-color: #BBDEFB;
 
 }
 
@@ -8059,6 +8059,12 @@ textarea.form-control-lg {
 .text-primary {
   --bs-text-opacity: 1;
   color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important;
+  
+}
+
+.fa-solid, .fas {
+  background-color: #2a4858;
+  border-radius: 50%;
 }
 
 .text-secondary {
@@ -10900,8 +10906,9 @@ p {
 #mainNav {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  background-color: #bbbadd !important;
+  background-color: #badcdd !important;
 }
+
 #mainNav .navbar-toggler {
   padding: 0.5rem;
   font-size: 0.5rem;
@@ -11279,9 +11286,6 @@ header.masthead .masthead-heading {
 
 section#contact {
   background-color: #212529;
-  background-image: url("../../../assets/img/map-image.png");
-  background-repeat: no-repeat;
-  background-position: center;
 }
 section#contact .section-heading {
   color: #fff;
