@@ -58,7 +58,7 @@
           "configurations": {
             "browserTarget": "StoreXpert:build",
             "production": {
-              "buildTarget": "StoreXpert:build:production",
+              "buildTarget": "StoreXpert:build:production"
             },
             "development": {
               "buildTarget": "StoreXpert:build:development"
@@ -92,5 +92,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": false
   }
 }
